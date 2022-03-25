@@ -8,7 +8,7 @@
     margin: 0;
   }
   .col-1 {
-    background: #D7E8D4;
+    background: #f2e9e1;
     flex: 1;
   }
   .col-2 {
@@ -23,13 +23,14 @@
   .content > article {
     flex: 3;
     min-height: 60vh;
+    background: #faf4ed;
   }
   .content > aside {
-    background: beige;
+    background: #faf4ed;
     flex: 1;
   }
   header, footer {
-    background: yellowgreen;
+    background: #faf4ed;
     height: 20vh;
   }
   header, footer, article, nav, aside {

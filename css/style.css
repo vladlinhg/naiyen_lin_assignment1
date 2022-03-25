@@ -59,9 +59,6 @@
     overflow: hidden
   }
 
-  a {
-    text-decoration: none;
-  }
 
   a.navitem {
     display: flex;
@@ -69,7 +66,7 @@
     text-decoration: none;
   }
 
-  li, p {
+  a, li, p {
     color: #797593;
     font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
@@ -94,6 +91,13 @@
   .content {
     color: #575279;
     font-family: 'Source Serif Pro', serif;
+  }
+
+  .content_note {
+    color: #575279;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+    padding: 5px;
   }
 
   .button1 {

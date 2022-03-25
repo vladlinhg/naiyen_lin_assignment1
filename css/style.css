@@ -36,3 +36,14 @@
   header, footer, article, nav, aside {
     padding: 1em;
   }
+
+  h1, h2, h3, li {
+    color: #797593;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  p {
+    color: #575279;
+    font-family: 'Source Serif Pro', serif;
+    margin: 15px
+  }

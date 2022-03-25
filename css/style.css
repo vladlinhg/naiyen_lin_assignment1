@@ -25,15 +25,12 @@
     min-height: 60vh;
     background: #faf4ed;
   }
-  .content > aside {
-    background: #faf4ed;
-    flex: 1;
-  }
+ 
   header, footer {
     background: #faf4ed;
     height: 20vh;
   }
-  header, footer, article, nav, aside {
+  header, footer, article, nav {
     padding: 1em;
   }
 

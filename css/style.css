@@ -108,7 +108,14 @@
     color: #d7827e;
     border: none;
     padding:5px
-    
+  }
+
+  .button3 {
+    background-color:#faf4ed;
+    font-size: 18px;
+    color: #d7827e;
+    border: none;
+    margin-left: 10px;
   }
 
   .note_text {
@@ -116,4 +123,31 @@
     color: #d7827e;
     padding: 5px
   }
+
+  .navbar_ver {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  textarea {
+    background-color: #f2e9e1;
+    width: 600px;
+    height: 450px;
+    margin-left: 45px;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+  }
+
+  .note_area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article div {
+    display: flex;
+    justify-content: center;
+  }
+
 

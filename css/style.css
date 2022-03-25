@@ -9,6 +9,8 @@
   }
   .col-1 {
     background: #f2e9e1;
+    display: flex;
+    flex-direction: column;
     flex: 1;
   }
   .col-2 {
@@ -26,21 +28,92 @@
     background: #faf4ed;
   }
  
-  header, footer {
+  header {
     background: #faf4ed;
+    display: flex;
+    justify-content: flex-end;
     height: 20vh;
   }
+
+  footer {
+    background: #faf4ed;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 20vh;
+    align-items: center;
+  }
+
   header, footer, article, nav {
     padding: 1em;
   }
 
-  h1, h2, h3, li {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a.navitem {
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  li, p {
+    color: #797593;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #cecacd;
+    text-decoration: none;
+  }
+
+  li a:visited {
+    color: #907aa9;
+    text-decoration: none;
+  }
+
+
+  .title{
     color: #797593;
     font-family: 'Fira Sans', sans-serif;
   }
 
-  p {
+  .content {
     color: #575279;
     font-family: 'Source Serif Pro', serif;
-    margin: 15px
   }
+
+  .button1 {
+    background-color:#f2e9e1;
+    color: #d7827e;
+    border: none;
+  }
+
+  .button2 {
+    background-color:#faf4ed;
+    font-size: 32px;
+    color: #d7827e;
+    border: none;
+    padding:5px
+    
+  }
+
+  .note_text {
+    font-size: 26px;
+    color: #d7827e;
+    padding: 5px
+  }
+
